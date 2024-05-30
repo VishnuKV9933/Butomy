@@ -1,0 +1,22 @@
+.rotate{
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 0;
+}
+
+.card1{
+    transform: rotate(90deg) translateX(130px);
+
+}
+
+.card2{
+    transform: rotate(90deg) translateX(80px);
+
+}
+
+.card3{
+    transform: rotate(90deg) translateX(10px);
+
+}
