@@ -5,7 +5,8 @@ import visa from '../../assets/visa.png'
 
 export default function Card({mobile,color}) {
   return (
-    <div className={`${mobile?"w-full bg-[#485563] ":"  w-[200px] h-[170px] gap-2"}  bg-[${color?color:""}] ${!color && "bg-orange-200" }  text-white rounded-lg p-4`}>
+    <div className={`${mobile ? "w-full bg-[#485563]" : "w-[200px] h-[170px] gap-2"} ${color ? `bg-[${color}]` : "bg-orange-200"} text-white rounded-lg p-4`}
+    >
       <div className='w-full flex justify-between'>
         <h1>banquee.</h1>
         <img className='w-[10px] h-[20px]' src={wifiIcon} alt="img" />
